@@ -11,12 +11,5 @@ JOIN
         B.AUTHOR_ID = A.AUTHOR_ID
 WHERE 
     B.CATEGORY IN ('경제')
-GROUP BY
-    B.BOOK_ID
 ORDER BY
     DATE_FORMAT(B.PUBLISHED_DATE, '%Y-%m-%d')
-
-    
-
-
-    
