@@ -6,9 +6,4 @@ SELECT
 FROM
     ANIMAL_INS
 WHERE
-    NAME LIKE 'Lucy'
-    OR NAME LIKE 'Ella'
-    OR NAME LIKE 'Pickle'
-    OR NAME LIKE 'Rogan'
-    OR NAME LIKE 'Sabrina'
-    OR NAME LIKE 'Mitty'
+    NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty')
