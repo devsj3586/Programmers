@@ -2,10 +2,10 @@ import java.util.*;
 
 class Solution {
     public List solution(String myString) {
-        String[] splitstr = myString.split("x");
+        String[] split = myString.split("x");
         List<String> answer = new ArrayList<>();
         
-        for(String s : splitstr) {
+        for(String s : split) {
           if(!s.isEmpty()) {
               answer.add(s);
             }  
